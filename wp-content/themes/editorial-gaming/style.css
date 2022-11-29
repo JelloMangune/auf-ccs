@@ -1,0 +1,454 @@
+/*
+Theme Name:         Editorial Gaming
+Theme URI:          https://mysterythemes.com/wp-themes/editorial-gaming/
+Author:             Mystery Themes
+Author URI:         https://mysterythemes.com
+Description:        Editorial Gaming is a child theme of Editorial ultimate responsive magazine style Free WordPress theme. Suitable for online magazines, newspaper, publishing, personal blogs and any kind of sites. It is completely built on Customizer which allows you to customize most of the theme settings easily with live previews. It is fully widgetized theme so as to let users manage the website using the easy to use widgets. It is a flexible and powerful theme, which provides a lot of customization possibilities to the users. Demo here: https://demo.mysterythemes.com/editorial-gaming
+Version:            1.0.1
+Requires at least:  4.7
+Tested up to:       6.1
+Requires PHP:       5.2.4
+License:            GNU General Public License v3 or later
+License URI:        http://www.gnu.org/licenses/gpl-3.0.html
+Template:           editorial
+Text Domain:        editorial-gaming
+Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support
+*/
+
+.single .byline,
+.group-blog .byline,
+.posted-on,
+.blog-author,
+.blog-cat,
+body,
+button,
+input,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+  font-family: 'Archivo', sans-serif;
+}
+
+.home.page-template-magazine-template #masthead {
+  margin-bottom: 10px;
+}
+
+.bottom-header-wrapper,
+.top-header-section,
+.is-sticky .bottom-header-wrapper,
+#site-navigation ul.sub-menu,
+#site-navigation ul.children {
+  background: #333;
+}
+
+.top-header-section .date-section {
+  color: #dfdfdf;
+}
+
+#site-navigation ul li {
+  line-height: 42px;
+}
+
+.home-icon,
+.search-main {
+  line-height: 44px;
+}
+
+#site-navigation ul li a {
+  color: #fff;
+}
+
+.editorial-ticker-wrapper {
+  margin-top: 20px;
+}
+
+.ticker-caption::after {
+  display: none;
+}
+
+.ticker-caption {
+  width: 6%;
+  padding: 2px 0;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.ticker-content-wrapper {
+  border: none;
+  padding: 0 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  width: 94%;
+  padding-right: 0;
+}
+
+.ticker-content-wrapper .bx-controls a {
+  font-size: 11px;
+  border: 1px solid #ccc;
+  width: 24px;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 3px;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.ticker-content-wrapper .bx-controls a:hover {
+  background: #D31919;
+  border-color: #D31919;
+  color: #fff;
+}
+
+.featured-post-wrapper .featured-title a,
+.editorial_block_grid .post-content-wrapper .post-title a {
+  font-size: 15px;
+}
+
+.slider-meta-wrapper .post-meta-wrapper>span,
+.slider-meta-wrapper .post-meta-wrapper>a,
+.featured-meta-wrapper .post-meta-wrapper>span,
+.featured-meta-wrapper .post-meta-wrapper>a,
+.post-meta-wrapper>span,
+.post-meta-wrapper span a {
+  font-size: 12px;
+}
+
+.grid-posts-block .post-title a,
+.column-posts-block .post-title a {
+  font-size: 16px;
+}
+
+.mt-slider-section .slide-title a {
+  font-size: 20px;
+}
+
+.editorial_block_layout .primary-post .post-meta-wrapper,
+.editorial_block_column .primary-post .post-meta-wrapper {
+  margin-bottom: 10px;
+}
+
+.editorial_block_column .single-post-wrapper.primary-post {
+  margin-bottom: 0;
+}
+
+.column-posts-block .post-content-wrapper {
+  margin-top: -5px;
+}
+
+.column-posts-block .primary-post .post-content-wrapper {
+  margin-top: 10px;
+}
+
+.list-posts-block .single-post-wrapper .post-content-wrapper .post-title a,
+.column-posts-block .single-post-wrapper.secondary-post .post-content-wrapper .post-title a {
+  font-size: 13px;
+}
+
+.home .widget.editorial_gaming_social_icons {
+  float: none;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#site-navigation li.menu-item-has-children > a::after, 
+#site-navigation li.page_item_has_children > a::after {
+  content: "\f107";
+  font-family: FontAwesome;
+  position: absolute;
+  right: 15px;
+  top: 2px;
+}
+
+#top-footer {
+  background: #212121;
+  color: #fff;
+  padding: 40px 0 20px;
+}
+
+#top-footer .widget {
+  margin: 0;
+}
+
+#top-footer .block-header,
+#top-footer .widget .widget-title-wrapper,
+#top-footer .block-header .block-title,
+#top-footer .widget .widget-title,
+#top-footer .widget_archive a,
+#top-footer .widget_categories a,
+#top-footer .widget_recent_entries a,
+#top-footer .widget_meta a,
+#top-footer .widget_recent_comments li,
+#top-footer .widget_rss li,
+#top-footer .widget_pages li a,
+#top-footer .widget_nav_menu li a,
+.top-menu ul li a,
+#footer-navigation ul li a {
+  color: #fff;
+}
+
+#bottom-footer {
+  background: #191919;
+  color: #fff;
+}
+
+.entry-meta span a,
+.entry-meta span,
+.cat-links {
+  font-style: normal;
+}
+
+article.hentry h1.entry-title {
+  margin-top: 10px;
+}
+
+.related-posts-wrapper .post-title a {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navigation.post-navigation::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#respond {
+  margin: 40px 0 0;
+}
+
+#commentform .comment-form-cookies-consent label {
+  display: inline-block;
+  vertical-align: top;
+  width: 95%;
+  margin-left: 7px;
+  margin-top: 2px;
+}
+
+#top-footer {
+  background: #212121;
+  color: #fff;
+  padding: 60px 0 0;
+}
+
+.home-icon a {
+  color: #fff;
+}
+
+.error404 #primary {
+  float: none;
+  margin: 120px auto 140px;
+}
+
+#top-footer {
+  padding: 40px 0 0px;
+}
+
+#top-footer .editorial_posts_list {
+  margin: 0;
+  padding: 0;
+}
+
+#site-navigation ul li a .menu-item-description {
+  background: #D31919;
+  position: absolute;
+  top: -14px;
+  right: -20px;
+  display: inline-block;
+  padding: 0px 10px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+#site-navigation ul li a .menu-item-description:after {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3px 3px 0 0;
+  border-color: #D31919 transparent transparent transparent;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#site-navigation ul ul li a .menu-item-description {
+  display: none;
+}
+
+.archive .page-header .page-title {
+  font-size: 20px;
+  padding: 1px 20px;
+}
+
+.editorial-dark-mode #page {
+  background: #101010;
+}
+
+.page-header .page-title {
+  font-size: 28px;
+}
+
+.editorial-dark-mode .grid-posts-block .post-title a,
+.editorial-dark-mode .column-posts-block .post-title a,
+.editorial-dark-mode .list-posts-block .single-post-wrapper .post-content-wrapper .post-title a,
+.editorial-dark-mode .column-posts-block .single-post-wrapper.secondary-post .post-content-wrapper .post-title a,
+.editorial-dark-mode .related-posts-wrapper .post-title a {
+  color: #fff;
+}
+
+.editorial-dark-mode .block-header .block-title,
+.editorial-dark-mode .widget .widget-title,
+.editorial-dark-mode .related-articles-wrapper .related-title,
+.editorial-dark-mode .page-header .page-title {
+  background: #101010;
+  color: #fff;
+}
+
+.editorial-dark-mode .block-header .block-title a,
+.editorial-dark-mode .widget .widget-title a,
+.editorial-dark-mode .related-articles-wrapper .related-title a,
+.editorial-dark-mode .editorial-author-wrapper .author-desc-wrapper .author-title,
+.editorial-dark-mode .ticker-content-wrapper .news-post a,
+.editorial-dark-mode .error-num,
+.editorial-dark-mode .error-num>span,
+.editorial-dark-mode .entry-title a,
+.editorial-dark-mode #comments h2.comments-title,
+.editorial-dark-mode .comment-author .fn .url,
+.editorial-dark-mode h1.entry-title {
+  color: #fff;
+}
+
+.editorial-dark-mode p,
+.editorial-dark-mode .author-description {
+  color: #dfdfdf;
+}
+
+.editorial-dark-mode .slider-meta-wrapper .post-meta-wrapper>span,
+.editorial-dark-mode .slider-meta-wrapper .post-meta-wrapper>a,
+.editorial-dark-mode .featured-meta-wrapper .post-meta-wrapper>span,
+.editorial-dark-mode .featured-meta-wrapper .post-meta-wrapper>a,
+.editorial-dark-mode .post-meta-wrapper>span,
+.editorial-dark-mode .post-meta-wrapper span a {
+  color: #cfcfcf;
+}
+
+.search-results.editorial-dark-mode .entry-title,
+.archive.editorial-dark-mode .entry-title,
+.single.editorial-dark-mode .entry-title,
+.entry-title,
+.editorial-dark-mode #reply-title {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.editorial-dark-mode .page-numbers.current,
+.editorial-dark-mode .page-numbers.dots {
+  padding: 0 10px;
+  color: #fff;
+}
+
+.editorial-dark-mode .block-header,
+.editorial-dark-mode .widget .widget-title-wrapper,
+.editorial-dark-mode .related-articles-wrapper .widget-title-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.editorial-dark-mode .ticker-content-wrapper .bx-controls a {
+  background: #D31919;
+  border: #D31919;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.editorial-dark-mode .widget_archive a,
+.editorial-dark-mode .widget_categories a,
+.editorial-dark-mode .widget_recent_entries a,
+.editorial-dark-mode .widget_meta a,
+.editorial-dark-mode .widget_recent_comments li,
+.editorial-dark-mode .widget_rss li,
+.editorial-dark-mode .widget_pages li a,
+.editorial-dark-mode .widget_nav_menu li a,
+.editorial-dark-mode .wp-block-latest-posts li a,
+.editorial-dark-mode .wp-block-archives li a,
+.editorial-dark-mode .wp-block-categories li a,
+.editorial-dark-mode .wp-block-page-list li a,
+.editorial-dark-mode .wp-block-latest-comments li,
+.editorial-dark-mode .widget_archive li,
+.editorial-dark-mode .widget_categories li,
+.editorial-dark-mode .widget_recent_entries li,
+.editorial-dark-mode .widget_meta li,
+.editorial-dark-mode .widget_recent_comments li,
+.editorial-dark-mode .widget_rss li,
+.editorial-dark-mode .widget_pages li,
+.editorial-dark-mode .widget_nav_menu li,
+.editorial-dark-mode .wp-block-latest-posts li,
+.editorial-dark-mode .wp-block-archives li,
+.editorial-dark-mode .wp-block-categories li,
+.editorial-dark-mode .wp-block-page-list li,
+.editorial-dark-mode .wp-block-latest-comments li {
+  color: #cfcfcf;
+}
+
+.editorial-dark-mode .widget_archive a:hover,
+.editorial-dark-mode .widget_categories a:hover,
+.editorial-dark-mode .widget_recent_entries a:hover,
+.editorial-dark-mode .widget_meta a:hover,
+.editorial-dark-mode .widget_recent_comments li:hover,
+.editorial-dark-mode .widget_rss li:hover,
+.editorial-dark-mode .widget_pages li a:hover,
+.editorial-dark-mode .widget_nav_menu li a:hover,
+.editorial-dark-mode .wp-block-latest-posts li a:hover,
+.editorial-dark-mode .wp-block-archives li a:hover,
+.editorial-dark-mode .wp-block-categories li a:hover,
+.editorial-dark-mode .wp-block-page-list li a:hover{
+  color: #d31919;
+}
+
+.editorial-dark-mode #respond,
+.editorial-dark-mode .comment-list .comment-body {
+  background: #060606;
+}
+
+.editorial-dark-mode#blog-post article.hentry,
+.editorial-dark-mode.search article.hentry,
+.editorial-dark-mode.archive article.hentry,
+.editorial-dark-mode.tag article.hentry,
+.editorial-dark-mode.category article.hentry,
+.editorial-dark-mode.blog article.hentry {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    margin: 2px 0;
+    color: #fff;
+  }
+
+  #site-navigation {
+    background: #333;
+  }
+
+  .related-posts-wrapper .single-post-wrap {
+    width: 98%;
+  }
+
+  #site-navigation ul li a .menu-item-description {
+    display: none;
+  }
+}
+
+.custom-logo-link {
+  display: block;
+  margin: 15px 0;
+}
